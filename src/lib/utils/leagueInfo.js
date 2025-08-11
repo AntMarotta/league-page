@@ -7,12 +7,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>League Description</p>
-  <p>Will be filled out</p>
-  <p>as soon as I</p>
-  <plearn how to code</p>
-  <p>at the intelligence</p>
-  <p>of a 14 year old.</p>
+  <p>4th and 10 was founded by commissioner Anthony Marotta in 2019. After scouring his limited friends and contact list, he settled on 11 other managers to fill out this Dynasty Fantasy Football League. The inaugural season crowned Zeek Brown as its first champion, an occurrence that the other managers would soon come to despise…</p>
+  <p>Rounding out the rest of the league was Chelsea, Kevin, Devin, JP, Jake, Casey, Shamus, Logan, Conor, and Charmaine. As the seasons pushed forward, 4th and 10 saw the departure of Charmaine (though not really, since she is chained in marriage to Casey), and the addition of Ryan. </p>
+  <p>Through 6 grueling years, Zeek and Casey dominated the league, claiming 2.5 and 2 Chips respectively. A shimmer of hope occurred in 2023 when Shamus, the kid brother of Juggernaut Hays, slayed the beast. A collective exhale from the league’s managers was immediately silenced in the ’24 season when Hays, upon the back of known traitor Saquon Barkley, dominated the league yet again.</p>
+  <p>As 4th and 10 continues onward, it remains a beacon of camaraderie and companionship, though managers may squabble frequently. With its members spanning the nation, this small dynasty league is a place to reminisce, plot and plan, trade, banter, vilify Zeek, and be amongst friends and family.</p>
 `;
 
 /*   STEP 3   */
@@ -30,22 +28,22 @@ export const managers = [
       "managerID": "309680040264617984",
       "name": "JP Vanier",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "New Jersey", // (optional)
-      "bio": "Here is JP's bio.",
+      "location": "Hillsborough, New Jersey", // (optional)
+      "bio": "JP became a Lions fan in 2008 after they had went 0-16 the year before. He believed there was nowhere to go but up, and after over a decade, he was finally rewarded. Until then, JP used fantasy football to to feel anything other than turmoil and despair. In his spare time he teaches math.",
       "photo": "/managers/jp.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
+        name: "Ryan", // Can be anything (usually your rival's name)
         link: 6, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 7547, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
+      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Never trade for a Running Back -unless it's time to contend-",
+      "tradingScale": 5, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
