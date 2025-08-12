@@ -168,9 +168,7 @@ export const managers = [
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Los Angeles, regretfully", // (optional)
       "bio": "Casey has been playing fantasy football for almost two decades, but only recently began trying a new strategy: winning. This has resulted in higher levels of satisfaction, as well as stress, and ultimately might not be worth it. But hey, an addiction’s an addiction, so here we are.
-'Hate me or love me, you watched. That’s all you could do.'
-	Pete Weber
-	Casey Hays",
+'Hate me or love me, you watched. That’s all you could do'.",
       "photo": "/managers/casey.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": ????, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
