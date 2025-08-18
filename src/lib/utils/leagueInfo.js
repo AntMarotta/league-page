@@ -299,6 +299,29 @@ export const managers = [
       "tradingScale": 4, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },    
+         {
+      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "862712758578286592",
+      "name": "Kristian Lydon",
+      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Joizey Shore", // (optional)
+      "bio": "Coach Lydon wasn't big into football until fantasy got involved. Once he realized the players resemble stocks, except that these stocks beat the living shit out of each other in a game of barbaric chess on a weekly basis, he became helplessly hooked. He became co-commish of his league by week 6 of his first season and has gone on to participate in fantasy in a variety of fashions. Redraft, keepers, guillotine, and even an online Survivor based league where the commish impersonates Jeff Probst - Lydon made the merge in both seasons for all you Survivor nerds out there",
+      "photo": "/managers/kristian.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Lactose", // Can be anything (usually your rival's name)
+        link: null, // manager array number within this array, or null to link back to all managers page
+        image: "/awards/milk.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "favoritePlayer": 5849, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Draft well and identify mutually beneficial trades that will allow us to create a dynasty that lasts 1,000 years",
+      "tradingScale": 8, // 1 - 10
+      "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },    
   // {
     //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "name": "Your Name",
